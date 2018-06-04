@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Humppa player</string>
+    <string name="play">\u25b8</string>
 </resources>

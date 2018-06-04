@@ -13,20 +13,23 @@
             android:layout_height="wrap_content"
             android:layout_weight="0.5">
             <TextView
-                android:padding="16dp"
-                android:layout_width="match_parent"
+                android:id="@+id/band"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="akjfb"
+                android:id="@+id/img"
                 />
-
         </LinearLayout>
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Play!"
+            android:text="@string/play"
+            android:textSize="150dp"
             android:layout_weight="0.5"
             android:id="@+id/butt"/>
-        </LinearLayout>
+    </LinearLayout>
 </LinearLayout>
 
